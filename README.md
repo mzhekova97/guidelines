@@ -13,8 +13,7 @@ Firstly, if you dont have a github account create one and also setup the ssh key
 Each project will have a parent repo named as *project_ws*. For example in case of the project stugalux, the parent repo is called as *stugalux_ws*. We will use ros [vcs-tools](http://wiki.ros.org/vcstool) for repository management. The instructions below are used for creating a parent repository for the project *5G_sky*. 
 
 #### Create a new repo on github as shown in the image below:
-
-    <img src="images/github_repo.png" width="" height=""> 
+<img src="images/github_repo.png" width="" height=""> 
 
 ####   Clone the repo locallly in your workspace folder:   
     ``` 
