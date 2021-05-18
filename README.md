@@ -39,16 +39,23 @@ Each project will have a parent repo named as *project_ws*. For example in case 
 
     **drivers** : This folder would contain all the necessary packages for which provide necessary drivers for running the simulation environments as well as the real robot along with its on-board sensors. For example drivers can have sub-folders such as *real* and *simulation* which contain the packages for executing the real world robot and the robot in simulation respectively. 
 
-    **generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of this repositories. 
+    **generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of these repositories. 
 
     **navigation** : This folder would contain all the packages required for navigation of the robot. It can be divided into sub-folders such as *slam*, *localization*, *planning* and *perception*. 
 
     **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
 
+* Create the Bringup and Description:
 
+* Clone all Remaining Required Repos:
 
+* Upload the Workspace Management File:
 
+* Maintain the Workspace
+    
+    *  Push the Repos in the workspace
 
+    * Tag the Repos in the workspace
 
-
+    * Update the Repos in the workspace
 
