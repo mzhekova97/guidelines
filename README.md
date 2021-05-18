@@ -10,15 +10,13 @@ Firstly, if you dont have a github account create one and also setup the ssh key
 
 ### Repository Management
 
-#### Project Parent Repository
-
 Each project will have a parent repo named as *project_ws*. For example in case of the project stugalux, the parent repo is called as *stugalux_ws*. We will use ros [vcs-tools](http://wiki.ros.org/vcstool) for repository management. The instructions below are used for creating a parent repository for the project *5G_sky*. 
 
-* Create a new repo on github as shown in the image below:
+#### Create a new repo on github as shown in the image below:
 
     <img src="images/github_repo.png" width="" height=""> 
 
-*   Clone the repo locallly in your workspace folder:   
+####   Clone the repo locallly in your workspace folder:   
     ``` 
     mkdir -p ~/workspace/ros/ && cd ~/workspace/ros/
     git clone git@github.com:snt-robotics/5G_sky_ws.git
@@ -26,13 +24,12 @@ Each project will have a parent repo named as *project_ws*. For example in case 
     git add .gitignore && git commit -m 'added .gitignore' && git push
     ```
 
-* Create the folder structure:
+#### Create the folder structure:
 
     ```
     cd ~/workspace/ros/5G_sky_ws && mkdir src && cd src
     mkdir -p drivers/real &&  mkdir -p drivers/simulation
     mkdir generic && mkdir navigation && mkdir utils
-    git add . && git commit -m 'created the base file structure' && git push
     ```
 
     In the above commands we created a folder structure for our algorithm repos inside src folder. There will be four main folders namely: **drivers**, **generic**, **navigation**, **utils**. Note: More folders can be added based on the requirements of each projects, but try to keep the folder structure as compact as possible.
@@ -45,13 +42,13 @@ Each project will have a parent repo named as *project_ws*. For example in case 
 
     **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
 
-* Create the Bringup and Description:
+#### Create the Bringup and Description:
 
-* Clone all Remaining Required Repos:
+#### Clone all Remaining Required Repos:
 
-* Upload the Workspace Management File:
+#### Upload the Workspace Management File:
 
-* Maintain the Workspace
+#### Maintain the Workspace
     
     *  Push the Repos in the workspace
 
