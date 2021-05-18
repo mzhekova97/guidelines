@@ -16,7 +16,7 @@ Each project will have a parent repo named as *project_ws*. For example in case 
 
 * Create a new repo on github as shown in the image below:
 
-    <img src="images/github_repo.png" width="640" height="480"> 
+    <img src="images/github_repo.png" width="" height=""> 
 
 *   Clone the repo locallly in your workspace folder:   
     ``` 
