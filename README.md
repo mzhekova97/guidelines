@@ -24,22 +24,21 @@ Each project will have a parent repo named as *project_ws*. For example in case 
     ```
 
 #### Create the folder structure:
+```
+cd ~/workspace/ros/5G_sky_ws && mkdir src && cd src
+mkdir -p drivers/real &&  mkdir -p drivers/simulation
+mkdir generic && mkdir navigation && mkdir utils
+```
 
-    ```
-    cd ~/workspace/ros/5G_sky_ws && mkdir src && cd src
-    mkdir -p drivers/real &&  mkdir -p drivers/simulation
-    mkdir generic && mkdir navigation && mkdir utils
-    ```
+In the above commands we created a folder structure for our algorithm repos inside src folder. There will be four main folders namely: **drivers**, **generic**, **navigation**, **utils**. Note: More folders can be added based on the requirements of each projects, but try to keep the folder structure as compact as possible.
 
-    In the above commands we created a folder structure for our algorithm repos inside src folder. There will be four main folders namely: **drivers**, **generic**, **navigation**, **utils**. Note: More folders can be added based on the requirements of each projects, but try to keep the folder structure as compact as possible.
+**drivers** : This folder would contain all the necessary packages for which provide necessary drivers for running the simulation environments as well as the real robot along with its on-board sensors. For example drivers can have sub-folders such as *real* and *simulation* which contain the packages for executing the real world robot and the robot in simulation respectively. 
 
-    **drivers** : This folder would contain all the necessary packages for which provide necessary drivers for running the simulation environments as well as the real robot along with its on-board sensors. For example drivers can have sub-folders such as *real* and *simulation* which contain the packages for executing the real world robot and the robot in simulation respectively. 
+**generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of these repositories. 
 
-    **generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of these repositories. 
+**navigation** : This folder would contain all the packages required for navigation of the robot. It can be divided into sub-folders such as *slam*, *localization*, *planning* and *perception*. 
 
-    **navigation** : This folder would contain all the packages required for navigation of the robot. It can be divided into sub-folders such as *slam*, *localization*, *planning* and *perception*. 
-
-    **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
+**utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
 
 #### Create the Bringup and Description:
 
