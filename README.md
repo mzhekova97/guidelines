@@ -24,6 +24,7 @@ Each project will have a parent repo named as *project_ws*. For example in case 
     ```
 
 #### Create the folder structure:
+
 ```
 cd ~/workspace/ros/5G_sky_ws && mkdir src && cd src
 mkdir -p drivers/real &&  mkdir -p drivers/simulation
@@ -48,9 +49,9 @@ In the above commands we created a folder structure for our algorithm repos insi
 
 #### Maintain the Workspace
     
-    *  Push the Repos in the workspace
+*  Push the Repos in the workspace
 
-    * Tag the Repos in the workspace
+* Tag the Repos in the workspace
 
-    * Update the Repos in the workspace
+* Update the Repos in the workspace
 
