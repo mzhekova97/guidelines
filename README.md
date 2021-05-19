@@ -16,7 +16,7 @@ This repository is provides a brief guide on of the software architecture to be 
     
     <img src="images/github_repo.png" width="" height=""> 
 
-    ####   Clone the repo locallly in your workspace folder:   
+* ####   Clone the repo locally in your workspace folder:   
     ``` 
     mkdir -p ~/workspace/ros/ && cd ~/workspace/ros/
     git clone git@github.com:snt-robotics/5G_sky_ws.git
