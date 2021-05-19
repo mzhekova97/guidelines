@@ -20,7 +20,7 @@ This repository is provides a brief guide on of the software architecture to be 
     ``` 
     mkdir -p ~/workspace/ros/ && cd ~/workspace/ros/
     git clone git@github.com:snt-robotics/5G_sky_ws.git
-    cd 5G_sky_ws/ && curl -O  https://github.com/hridaybavle/.gitignore/blob/master/.gitignore
+    cd 5G_sky_ws/ && curl -O  https://raw.githubusercontent.com/hridaybavle/.gitignore/master/.gitignore
     git add .gitignore && git commit -m 'added .gitignore' && git push
     ```
 
@@ -66,6 +66,8 @@ This repository is provides a brief guide on of the software architecture to be 
 
 
 * #### Clone all Remaining Required Repos: 
+
+
 
 * #### Upload the Workspace Management File:
 
