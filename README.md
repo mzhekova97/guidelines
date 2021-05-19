@@ -55,7 +55,15 @@ This repository is provides a brief guide on of the software architecture to be 
 
         The above command creates a ros repo, it also adds launch and config folders. You have to push this created ros repo to github. 
 
-    * **project_description** : As the name suggests the project description i
+    * **project_description** : As the name suggests the project description contains the description files the projects. The description file contains the urdfs, meshes, worlds etc for the robots and the environment of the robot. 
+        
+        ```
+        cd ~/workspace/ros/5G_sky_ws/src/generic && catkin_create_pkg 5G_sky_description
+        cd 5G_sky_description && mkdir launch && mkdir config && mkdir urdf && mkdir worlds
+        ```    
+
+        The above command will create a ros repo which will have launch, config, urdf and worlds folders. 
+
 
 * #### Clone all Remaining Required Repos: 
 
