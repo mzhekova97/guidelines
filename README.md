@@ -12,7 +12,7 @@ This repository is provides a brief guide on of the software architecture to be 
 
     Each project will have a parent repo named as *project_ws*. For example in case of the project stugalux, the parent repo is called as *stugalux_ws*. We will use ros [vcs-tools](http://wiki.ros.org/vcstool) for repository management. The instructions below are used for creating a parent repository for the project *5G_sky*. 
 
-    #### Create a new repo on github as shown in the image below:
+* #### Create a new repo on github as shown in the image below:
     
     <img src="images/github_repo.png" width="" height=""> 
 
@@ -24,7 +24,7 @@ This repository is provides a brief guide on of the software architecture to be 
     git add .gitignore && git commit -m 'added .gitignore' && git push
     ```
 
-    #### Create the folder structure:
+* #### Create the folder structure:
 
     ```
     cd ~/workspace/ros/5G_sky_ws && mkdir src && cd src
@@ -63,9 +63,9 @@ This repository is provides a brief guide on of the software architecture to be 
 
 * #### Maintain the Workspace
     
-*  Push the Repos in the workspace
+    *  Push the Repos in the workspace
 
-* Tag the Repos in the workspace
+    * Tag the Repos in the workspace
 
-* Update the Repos in the workspace
+    * Update the Repos in the workspace
 
