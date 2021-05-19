@@ -16,12 +16,12 @@ Each project will have a parent repo named as *project_ws*. For example in case 
 <img src="images/github_repo.png" width="" height=""> 
 
 ####   Clone the repo locallly in your workspace folder:   
-    ``` 
-    mkdir -p ~/workspace/ros/ && cd ~/workspace/ros/
-    git clone git@github.com:snt-robotics/5G_sky_ws.git
-    cd 5G_sky_ws/ && curl -O  https://github.com/hridaybavle/.gitignore/blob/master/.gitignore
-    git add .gitignore && git commit -m 'added .gitignore' && git push
-    ```
+``` 
+mkdir -p ~/workspace/ros/ && cd ~/workspace/ros/
+git clone git@github.com:snt-robotics/5G_sky_ws.git
+cd 5G_sky_ws/ && curl -O  https://github.com/hridaybavle/.gitignore/blob/master/.gitignore
+git add .gitignore && git commit -m 'added .gitignore' && git push
+```
 
 #### Create the folder structure:
 
@@ -41,7 +41,20 @@ In the above commands we created a folder structure for our algorithm repos insi
 
 **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
 
-#### Create the Bringup and Description:
+#### Create the Project Bringup and Project Description:
+
+Each project will have a bringup repository and a description repository, these repos will be named as project_bringup and project_description.
+
+**project_bringup** : The project_bringup as the name suggests is responsible for bringing up all the processes responsible for proper execution of the robot and its sensors, where it be in a simulated environment or in real world. Basically it has all the launch and config files of the different packages which are grouped together to launch an entire mission of the robot. How to create a bringup repo (example: 5G_sky_bringup):
+    
+```
+cd ~/workspace/ros/5G_sky_ws/src/generic && catkin_create_pkg 5G_sky_bringup roscpp rospy 
+cd 5G_sky_bringup && mkdir launch && mkdir config
+```    
+
+The above command creates a ros repo, it also adds launch and config folders. You have to push this created ros repo to github.
+
+**project_description** : As the name suggests the project description i
 
 #### Clone all Remaining Required Repos:
 
