@@ -34,28 +34,28 @@ This repository is provides a brief guide on of the software architecture to be 
 
     In the above commands we created a folder structure for our algorithm repos inside src folder. There will be four main folders namely: **drivers**, **generic**, **navigation**, **utils**. Note: More folders can be added based on the requirements of each projects, but try to keep the folder structure as compact as possible.
 
-    **drivers** : This folder would contain all the necessary packages for which provide necessary drivers for running the simulation environments as well as the real robot along with its on-board sensors. For example drivers can have sub-folders such as *real* and *simulation* which contain the packages for executing the real world robot and the robot in simulation respectively. 
+    * **drivers** : This folder would contain all the necessary packages for which provide necessary drivers for running the simulation environments as well as the real robot along with its on-board sensors. For example drivers can have sub-folders such as *real* and *simulation* which contain the packages for executing the real world robot and the robot in simulation respectively. 
 
-    **generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of these repositories. 
+    * **generic** : This folder contains all the relevant packages for launching all the processes required for successully executing a relevant task/mission for the project. It can be sub-divided into bringup and desciption packages. Example `5G_sky_ws` will have `5G_sky_bringup` and `5G_sky_description`. In the section below we will explain in detail the creation of these repositories. 
 
-    **navigation** : This folder would contain all the packages required for navigation of the robot. It can be divided into sub-folders such as *slam*, *localization*, *planning* and *perception*. 
+    * **navigation** : This folder would contain all the packages required for navigation of the robot. It can be divided into sub-folders such as *slam*, *localization*, *planning* and *perception*. 
 
-    **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
+    * **utils** : This folder should contain all the additional packages required but are not available in the form of binaries.
 
 * #### Create the Project Bringup and Project Description:
 
     Each project will have a bringup repository and a description repository, these repos will be named as project_bringup and project_description.
 
-    **project_bringup** : The project_bringup as the name suggests is responsible for bringing up all the processes responsible for proper execution of the robot and its sensors, where it be in a simulated environment or in real world. Basically it has all the launch and config files of the different packages which are grouped together to launch an entire mission of the robot. How to create a bringup repo (example: 5G_sky_bringup):
+    * **project_bringup** : The project_bringup as the name suggests is responsible for bringing up all the processes responsible for proper execution of the robot and its sensors, where it be in a simulated environment or in real world. Basically it has all the launch and config files of the different packages which are grouped together to launch an entire mission of the robot. How to create a bringup repo (example: 5G_sky_bringup):
         
-    ```
-    cd ~/workspace/ros/5G_sky_ws/src/generic && catkin_create_pkg 5G_sky_bringup roscpp rospy 
-    cd 5G_sky_bringup && mkdir launch && mkdir config
-    ```    
+        ```
+        cd ~/workspace/ros/5G_sky_ws/src/generic && catkin_create_pkg 5G_sky_bringup roscpp rospy 
+        cd 5G_sky_bringup && mkdir launch && mkdir config
+        ```    
 
-    The above command creates a ros repo, it also adds launch and config folders. You have to push this created ros repo to github. 
+        The above command creates a ros repo, it also adds launch and config folders. You have to push this created ros repo to github. 
 
-    **project_description** : As the name suggests the project description i
+    * **project_description** : As the name suggests the project description i
 
 * #### Clone all Remaining Required Repos: 
 
