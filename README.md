@@ -10,7 +10,7 @@ This repository is provides a brief guide on of the software architecture to be 
 
 * ### Repository Management
 
-    Each project will have a parent repo named as *project_ws*. For example in case of the project stugalux, the parent repo is called as *stugalux_ws*. We will use ros [vcs-tools](http://wiki.ros.org/vcstool) for repository management. The instructions below are used for creating a parent repository for the project *5G_sky*. 
+    Each project will have a parent repo named as *project_ws*. For example in case of the project stugalux, the parent repo is called as *stugalux_ws*. We will use ros [vcs-tools](http://wiki.ros.org/vcstool) for repository management. The instructions below are used for creating a parent repository for the project *5G_sky* which will be named a [5G_sky_ws](https://github.com/snt-robotics/5G_sky_ws). 
 
 * #### Create a new repo on github as shown in the image below:
     
