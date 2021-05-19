@@ -1,6 +1,6 @@
 # ARG Software Architecture 
 
-This repository is provides a brief guide on of the software architecture to be followed during the execution of the projects of the Automation and Robotics Research Group (ARG). If all of us follow this architecture we can have a standardized rules for developing, managing and executing workspaces and most of the developed code can be reutilized between different projects.
+This repository is provides a brief guide on of the software architecture to be followed during the execution of the projects of the Automation and Robotics Research Group (ARG). If all of us follow this architecture we can have standardized rules for developing, managing and executing workspaces and most of the developed code can be reutilized between different projects.
 
 ## How Do I Start?
 
@@ -81,10 +81,18 @@ This repository is provides a brief guide on of the software architecture to be 
     ```
 
 * #### Maintain the Workspace
-    
-    *  Push the Repos in the workspace
 
-    * Tag the Repos in the workspace
+    * Update the Repos in the workspace: If the repos in the workspace have been updated in the remote, you simply need to follow the command to update them locally:
+        ```
+        cd ~/workspace/ros/5G_sky_ws  
+        vcs import src < .rosinstall    
+        ``` 
 
-    * Update the Repos in the workspace
+    * Tag the Repos in the workspace: Instead of using master branch in your.rosinstall file you can take advantage of git tags. For example, instead of using `master` branch in your `.rosinstall` file for the `5G_sky_bringup` repo, you can use a specific version or a commit. You can create a version for a repo like `5G_sky_bringup` using the following commands:
+        ```
+        roscd 5G_sky_bringup 
+        catkin_prepare_release 
+        ```
+
+
 
