@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    background: var(--background)!important;
+}
+
+/* ----------------- Cover -----------------*/
+section.cover .cover-main>p{
+    margin-top: 32px;
+}
+section.cover .cover-main>p>a{
+    margin: 4px!important;
+}
+section.cover .cover-main>p:last-child a:last-child {
+    background-color: var(--accent);
+    color: var(--background);
+}
+
+section.cover .cover-main>p:last-child a:last-child:hover{
+    background-color: var(--accent);
+    color: var(--background);
+}
+
+/* ----------------- Home brand -----------------*/
+.home-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-brand div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-brand img {
+    height: 120px;
+    margin-right: 12px;
+}
+
+.home-brand span {
+    font-size: 84px;
+    font-weight: 200;
+    line-height: 64px;
+}
+/* ----------------- Markdown -----------------*/
+.markdown-section {
+    max-width: 900px;
+}
+
+/* ----------------- Sidebar -----------------*/
+.sidebar {
+    width: 280px;
+}
+
+.sidebar-nav {
+    padding-left: 20px;
+}
+
+.active > a {
+    border-right: 2px solid var(--accent);
+    color: var(--accent) !important;
+    font-weight: 600!important;
+    
+}
+
+.sidebar-nav ul li.folder p {
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 14px !important;
+}
+
+.sidebar-nav ul li.folder::before {
+    top: 12px !important;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.sidebar-logo {
+    height: 75px;
+}
+
+.search input:focus {
+    box-shadow: none !important;
+}
+
+.input-wrap input {
+    outline: none;
+}
+
+.clear-button {
+    background: none;
+    border: none;
+}
+
+.clear-button > svg {
+    width: 28px;
+    height: 28px;
+    stroke: var(--accent);
+}
+
+.search .matching-post {
+    border-color: var(--borderColor)!important;
+}
+
+/* ----------------- Darklight theme  -----------------*/
+@media screen and (max-width: 768px) {
+    #docsify-darklight-theme {
+        visibility: hidden;        
+    }
+}
+
+/* ----------------- Code  -----------------*/
+td::before {
+    content: '' !important;
+}
+
+.docsify-copy-code-button span.success{
+    right: 60%!important;
+}
+
+.docsify-copy-code-button span.error{
+    right: 60%!important;
+}
