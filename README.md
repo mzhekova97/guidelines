@@ -1,6 +1,6 @@
 # ARG Guidelines
 
-This repository contains the guidelines for the ARG group. Click on this [link](https://software-architecture.vercel.app/#/) to access the wiki for the software architecture.
+This repository contains the guidelines for the ARG group. Click on this [link](https://snt-arg.github.io/guidelines/#/) to access the wiki for the software architecture.
 
 ### Overview
 We use [Docsify](https://docsify.js.org/) to generate the website on-the-fly from markdown files.
