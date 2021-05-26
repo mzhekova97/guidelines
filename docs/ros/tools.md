@@ -1,5 +1,5 @@
 # ROS Tools
 
-* `catkin_tools`
+* [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/)
 
-* `vcs_tool`
+* [vcs_tool](http://wiki.ros.org/vcstool)

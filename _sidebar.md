@@ -5,7 +5,8 @@
     * [Naming conventions](/docs/github/conventions "GitHub conventions")
 
 * ROS
-    * [General guidelines](/docs/ros/ "ROS")
+    * General guidelines
+        * [Repository management](/docs/ros/ "ROS")
     * [Recommended tools](/docs/ros/tools "ROS Tools")
 
 * Internal projects
