@@ -1,4 +1,4 @@
 # FAQ
 
 > [!WARNING]
-> This section is still a work-in-progress.
+> Work-in-progress.
