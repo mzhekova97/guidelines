@@ -65,9 +65,12 @@ section.cover .cover-main>p:last-child a:last-child:hover{
     
 }
 
-.sidebar-nav ul li.folder p {
-    margin-left: 4px;
-    font-weight: 400;
+.sidebar li > p {
+    font-weight: 400 !important;
+}
+
+.sidebar-nav ul li.folder {
+    margin-left: 4px; 
     font-size: 14px !important;
 }
 
@@ -122,6 +125,10 @@ section.cover .cover-main>p:last-child a:last-child:hover{
 /* ----------------- Code  -----------------*/
 td::before {
     content: '' !important;
+}
+
+.docsify-copy-code-button {
+    background: var(--highlightColor)!important;
 }
 
 .docsify-copy-code-button span.success{

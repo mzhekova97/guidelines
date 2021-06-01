@@ -1,15 +1,28 @@
-* [Welcome](/docs/ "Welcome")
+* [Welcome](/docs/)
 
-* GitHub
-    * [General guidelines](/docs/github/ "GitHub")
-    * [Naming conventions](/docs/github/conventions "GitHub conventions")
+* Git
+    * [Overview](/docs/git/)
+    * [Conventions](/docs/git/conventions)
 
 * ROS
-    * General guidelines
-        * [Repository management](/docs/ros/ "ROS")
-    * [Recommended tools](/docs/ros/tools "ROS Tools")
+    * [Overview](/docs/ros/)
+    * [Workspaces](/docs/ros/workspaces)
+    * [Packages](/docs/ros/packages)
+    * [Tools](/docs/ros/tools)
 
-* Internal projects
-    * [Overview](/docs/projects/ "Internal projects")
+* Python
+    * [Overview](/docs/python/)
 
+* C++
+    * [Overview](/docs/cpp/)
+
+* Docker
+    * [Overview](/docs/docker/)
+
+* Misc
+    * [Overview](/docs/misc/)
+    * Tools
+        * [Internal](/docs/misc/internal)
+        * [External](/docs/misc/tools)
+    
 * [FAQ](/docs/faq)
