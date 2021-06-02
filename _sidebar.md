@@ -8,6 +8,7 @@
     * [Overview](/docs/ros/)
     * [Workspaces](/docs/ros/workspaces)
     * [Packages](/docs/ros/packages)
+    * [Launch files](/docs/ros/launch-files)
     * [Tools](/docs/ros/tools)
 
 * Python
