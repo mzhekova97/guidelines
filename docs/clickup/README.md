@@ -30,9 +30,9 @@ Task descriptions should be in the infinitive, as they represent something that 
 
 > [!INFO] Note that while useful, these naming conventions are not so important for cards in the backlog.
 
-# Flow
+# Workflows
 
-The only allowed flows are:
+The only allowed workflows are:
 
 1. Backlog -> To do -> In progress -> Waiting for review -> Complete
 2. Backlog -> To do -> In progress -> Blocked -> Backlog
@@ -45,10 +45,10 @@ Estimating how long it will take to perform a specific task can be a daunting ta
 
 This number, which is commonly referred to as a task's story points are assigned based on:
 
-• The amount of work involved
-• The complexity of the required work
-• The risk or uncertainty involved
-• The estimated duration of the task
+* The amount of work involved
+* The complexity of the required work
+* The risk or uncertainty involved
+* The estimated duration of the task
 
 > [!INFO] This section is just a guideline. You don't need to use any of these if it doesn't make sense to you or to your project.
 
