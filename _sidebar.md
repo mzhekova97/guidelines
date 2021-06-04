@@ -26,4 +26,7 @@
         * [Internal](/docs/misc/internal)
         * [External](/docs/misc/tools)
     
+* Clickup
+    * [Overview](/docs/clickup/)
+
 * [FAQ](/docs/faq)
