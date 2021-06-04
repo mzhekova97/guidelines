@@ -1,6 +1,6 @@
 # Clickup
 
-We use Clickup for managing research projects. This tool is similar to Trello, in the sense that it allows for the creation of Kanban-style lists  of cards that can be grouped based on a customizable set of statuses. It does, however, provide many other handy features that would only be available on Trello via Add-ons. In fact, it is so rich in features that one can get easily overwhelmed. In order to mitigate this problem, we try to follow an opinionated set of practices meant for minimizing overhead and allowing for smooth collaboration between team members. 
+We use Clickup for managing projects. This tool is similar to Trello, in the sense that it allows for the creation of Kanban-style lists  of cards that can be grouped based on a customizable set of statuses. It does, however, provide many other handy features that would only be available on Trello via Add-ons. In fact, it is so rich in features that one can get easily overwhelmed. In order to mitigate this problem, we try to follow an opinionated set of practices meant for minimizing overhead and allowing for smooth collaboration between team members. 
 
 > [!WARNING] If you find that these practices are not providing any benefit, or are instead making your life more difficult than it should be, feel free to create an issue, and/or submit a PR suggesting alternatives.
 
