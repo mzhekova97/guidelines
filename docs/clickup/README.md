@@ -1,13 +1,13 @@
 # Clickup
 
-We use Clickup for managing projects. This tool is similar to Trello, in the sense that it allows for the creation of Kanban-style lists  of cards that can be grouped based on a customizable set of statuses. It does, however, provide many other handy features that would only be available on Trello via Add-ons. In fact, it is so rich in features that one can get easily overwhelmed. In order to mitigate this problem, we try to follow an opinionated set of practices meant for minimizing overhead and allowing for smooth collaboration between team members. 
+We use Clickup, a tool similar to Trello, for managing projects. Clickup provides many very useful features, but at first it can seem complex to use and make one feel overwhelmed. In order to mitigate this problem, we try to follow an opinionated set of practices meant for minimizing overhead and allowing for smooth collaboration between team members. 
 
 > [!WARNING] If you find that these practices are not providing any benefit, or are instead making your life more difficult than it should be, feel free to create an issue, and/or submit a PR suggesting alternatives.
 
 # Statuses
 
 ### Backlog
-Cards High-level requirements or ideas that are not necessarily well defined. New cards can be added to the backlog at any time, but *one must be careful not to interpret this list as a to-do list*. Rather, it is a way to keep track of ideas and help the team prioritize tasks when planning what should be added to the "To do" list.
+High-level requirements or ideas that are not necessarily well defined. New cards can be added to the backlog at any time, but *one must be careful not to interpret this list as a to-do list*. Rather, it is a way to keep track of ideas and help the team prioritize tasks when planning what should be added to the "To do" list.
 
 ### To do
 Updated once per week, with new cards being created only after a thoughtful discussion based on the backlog and the team's capacity. All new cards added to this status should be well specified, with their expected output clearly defined. In addition, they have to be assigned to specific team meambers. As an example, we could have a task: "Review the state-of-the-art of X", whose outcome could be a summary of the most relevant papers read. Super broad tasks such as "Write paper" should be avoided here, as they make more sense in the backlog.
