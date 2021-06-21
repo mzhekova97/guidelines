@@ -1,5 +1,8 @@
 * [Welcome](/docs/)
 
+* Papers
+    * [Overview](/docs/papers/)
+
 * Git
     * [Overview](/docs/git/)
     * [Conventions](/docs/git/conventions)
