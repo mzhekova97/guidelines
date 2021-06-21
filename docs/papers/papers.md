@@ -42,3 +42,8 @@ Here you show that you understood the problem and that you know the state of the
 3. How you have avoided/reduced those pitfalls.
 
 ## Body
+Here is the body of your work and it is fully yours. If possible, try to make a problem statement, delimiting the scope of your specific problem. Then, if needed, some preliminary results may improve the reading flow of subsequent sections. Whatever you do, try to explain the concepts as easily as possible. The holy grail is to get a simple and elegant solution.  
+
+## Experiments
+
+## Conclussions and Future Work
