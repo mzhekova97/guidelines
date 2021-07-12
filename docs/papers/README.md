@@ -34,6 +34,7 @@ It is very important that you get it right in the title and the abstract. They'r
 The above abstract follows this simple structure:
 
 First question to answer: WHY?
+
 1. **Context:** Why something needed to be done at all.
 "An aneurysm in the abdominal aorta will rupture as soon as the wall stress exceeds the wall strength at any location, thus, threatening the patient’s life. Selective surgical repair, however, is costly and risky."
 2. **Need:** Why the need is so pressing.
@@ -44,6 +45,7 @@ First question to answer: WHY?
 "This article reports the wall stress distribution in twelve patients and discusses the impact of the ILT configuration."
 
 Second question to answer: SO WHAT?
+
 5. **Findings:** What the findings mean for the audience.
 "In all twelve patients, the presence of an ILT altered the stress distribution and reduced the peak stress by 6 to 38% (p = 0.067), depending on the geometry."
 6. **Conclusion:** What the work done yielded.
