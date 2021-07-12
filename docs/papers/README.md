@@ -27,6 +27,21 @@ The abstract should summarize the paper you wrote:
 
 It is very important that you get it right in the title and the abstract. They're going to pre-judge your whole paper based on this. They might not even read the rest!!
 
+### Here is an example:
+
+>An aneurysm in the abdominal aorta will rupture as soon as the wall stress exceeds the wall strength at any location, thus, threatening the patient’s life. Selective surgical repair, however, is costly and risky. Evaluating wall stress to predict the risk of rupture is therefore essential toward patient management, yet current models suffer from several limitations. Using computed tomography and finite elements, we investigated whether the presence of ILT alters the distribution or the magnitude of the wall stress in aneurysms of the abdominal aorta. This article reports the wall stress distribution in twelve patients and discusses the impact of the ILT configuration. In all twelve patients, the presence of an ILT altered the stress distribution and reduced the peak stress by 6 to 38% (p = 0.067), depending on the geometry. As a consequence, it should be taken into account in any patient-specific model of aortic aneurysms for evaluating the wall stress and the risk of rupture. Still, it may also adversely affect the wall strength and will therefore remain the focus of future work.
+
+The above abstract follows this simple structure:
+1. **Context:** "An aneurysm in the abdominal aorta will rupture as soon as the wall stress exceeds the wall strength at any location, thus, threatening the patient’s life. Selective surgical repair, however, is costly and risky."
+2. **Need:** "Evaluating wall stress to predict the risk of rupture is therefore essential toward patient management, yet current models suffer from several limitations."
+3. **Task:** "Using computed tomography and finite elements, we investigated whether the presence of ILT alters the distribution or the magnitude of the wall stress in aneurysms of the abdominal aorta."
+4. **Object (body of the paper):** "This article reports the wall stress distribution in twelve patients and discusses the impact of the ILT configuration."
+5. **Findings:** "In all twelve patients, the presence of an ILT altered the stress distribution and reduced the peak stress by 6 to 38% (p = 0.067), depending on the geometry."
+6. **Conclusion:** "As a consequence, it should be taken into account in any patient-specific model of aortic aneurysms for evaluating the wall stress and the risk of rupture." 
+7. **Perspective:** "Still, it may also adversely affect the wall strength and will therefore remain the focus of future work."
+
+The abstract shouldn't exceed 300 words.
+
 ## Introduction
 Here you provide the aim and scope of your paper, highlighting its relevance and summarizing your contributions.
 1. Relevance of the field/application. Its potential to create disruptive technologies that solve real-world problems.
@@ -41,7 +56,7 @@ Here you show that you understood the problem and that you know the state of the
 2. Recent contributions of other authors and their pitfalls.
 3. How you have avoided/reduced those pitfalls.
 
-## Body
+## Body/Object
 Here is the body of your work and it is fully yours. If possible, try to make a problem statement, delimiting the scope of your specific problem. Then, if needed, some preliminary results may improve the reading flow of subsequent sections. Whatever you do, try to explain the concepts as easily as possible. The holy grail is to get a simple and elegant solution.  
 
 ## Experiments
