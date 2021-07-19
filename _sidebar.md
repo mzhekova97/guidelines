@@ -23,6 +23,8 @@
 * Docker
     * [Overview](/docs/docker/)
 
+* OptiTrack
+    * [Overview](/docs/optitrack)
 * Misc
     * [Overview](/docs/misc/)
     * Tools
