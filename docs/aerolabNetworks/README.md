@@ -13,7 +13,8 @@ This network is for the OptiTrack data
 This network is a local network for the robots communication
 **Password**: control4uav
 
-
+## Connections diagram
+![Diagram](aeroLab.png)
 
 
 

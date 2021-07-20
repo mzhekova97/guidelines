@@ -17,7 +17,7 @@ For the installation process, you may consult [the optitrack website](https://v2
 ## Setup
 The OT-PC needs to be connected to the OptiTrack cameras via Ethernet to the OptiTrack switch, which is in the Electrical cabinet. The ROS-PC, is then connected to a second network, used to stream the information.
 
-[Here will go the diagram of the connection]
+For networks connection, please consult the [Networks section](/docs/aerolabNetworks).
 
 ##  Calibration
 ### **Camera calibration**
