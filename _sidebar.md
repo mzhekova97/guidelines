@@ -24,10 +24,10 @@
     * [Overview](/docs/docker/)
 
 * OptiTrack
-    * [Overview](/docs/optitrack)
+    * [Overview](/docs/optitrack/)
     
 * AeroLab Networks
-    * [Overview](/docs/aerolabNetworks)
+    * [Overview](/docs/aerolabNetworks/)
     
 * Misc
     * [Overview](/docs/misc/)
