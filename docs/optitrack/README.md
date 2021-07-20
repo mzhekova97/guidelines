@@ -1,10 +1,10 @@
 # Optitrack Documentation
 
 ## Version and Licence
-The current version of the OptiTrack is 1.10.3.
-Device Serial | Hardware Key: #104477
-Valid From: 31.03.2015
-Update & Support Until: 30.03.2019
+The current version of the OptiTrack is 1.10.3.  
+Device Serial | Hardware Key: #104477  
+Valid From: 31.03.2015  
+Update & Support Until: 30.03.2019  
 
 * Initial License: MVCL1782
 * Update Licence: MVCL1060 [Duration 1 Year]
