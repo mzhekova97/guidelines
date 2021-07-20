@@ -7,7 +7,8 @@ This netwok is for the internet connection.
 
 ## OptiTrack
 This network is for the OptiTrack data  
-**Password**: 
+No WiFi connection.
+
 
 ## robotics.snt.uni.lu 
 This network is a local network for the robots communication  
