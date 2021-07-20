@@ -1,7 +1,15 @@
 # Optitrack Documentation
 
-## Version
-The current version of the OptiTrack is 1.10.3 
+## Version and Licence
+The current version of the OptiTrack is 1.10.3.
+Device Serial | Hardware Key: #104477
+Valid From: 31.03.2015
+Update & Support Until: 30.03.2019
+
+* Initial License: MVCL1782
+* Update Licence: MVCL1060 [Duration 1 Year]
+* Update Licence: MVCL1061 [Duration 1 Year]
+* Update Licence: MVCL1062 [Duration 1 Year]
 
 ## Installation
 For the installation process, you may consult [the optitrack website](https://v22.wiki.optitrack.com/index.php?title=Installation_and_Activation)
@@ -11,36 +19,21 @@ The OT-PC needs to be connected to the OptiTrack cameras via Ethernet to the Opt
 
 [Here will go the diagram of the connection]
 
-## Networks
-### Robonet
-This netwok is for the internet connection.
-**Password**: Procrob@2016
-
-### OptiTrack
-This network is for the OptiTrack data
-**Password**: 
-
-### robotics.snt.uni.lu - Ethernet3
-This network is a local network for the robots communication
-**Password**: control4uav
-
 ##  Calibration
-### Camera calibration
-1. New project
-2. Hide the calibration wand (know by the program)
-3. Click on Mask Visible (We choose where to save it)
-4. Click on start Wanding and start moving around with the wand 
-5. Click on Calculate and Apply the results
+### **Camera calibration**
+1. Create a new project
+2. The calibration wand, known by the program should not be in the flight arena.
+3. Click on `Mask Visible` and choose where to save the project.
+4. Click on `Start Wanding`.
+5. Go inside the flight arena and start moving around with the wand in order to allow the cameras to capture as many motions as possible.
+6. When done, click on `Calculate` and Apply the results
 
-### Ground Plane calibration
-1. Put the calibration triangle (from the box) in the center on the X and Y axes 
-2. Click on Set Ground Plane and apply 
+### **Ground Plane calibration**
+1. Put the calibration square from the markers box in the center on the X and Y axis. It should be aligned so that it references the desired axis orientation.
+2. Click on `Set Ground Plane` and apply.
 
-### When adding a robot
-To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select Rigid Body -> Create From Selected Markers
-1. Select the markers / robot 
-2. Right Click and choose Rigid Body
-3. Click on Create From Selected Markers
+### **When adding a robot**
+To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select `Rigid Body -> Create From Selected Markers`
 - The name of the robot could be changed and we can see the User ID.
 
 
