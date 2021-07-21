@@ -6,14 +6,14 @@ This netwok is for the internet connection.
 **Password**: Procrob@2016
 
 ## OptiTrack
-Optitrack-PC IP: `192.168.30.105` - not working
+Optitrack-PC IP: `192.168.30.105` { color: green } - not working
 This network is for the OptiTrack data  
 No WiFi connection.
 
 
 ## robotics.snt.uni.lu 
 This network is a local network for the robots communication  
-ROS-PC IP: `192.168.10.10`
+ROS-PC IP: `192.168.10.10` { color: red }
 **Password**: control4uav
 
 ## Connections diagram
