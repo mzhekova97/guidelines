@@ -6,7 +6,7 @@ This netwok is for the internet connection.
 **Password**: Procrob@2016
 
 ## OptiTrack
-Optitrack-PC IP: `192.168.30.105` - not working
+<span style="color: green">Optitrack-PC IP: `192.168.30.105`</span> - not working
 This network is for the OptiTrack data  
 No WiFi connection.
 
