@@ -5,6 +5,7 @@ The current version of the OptiTrack is 1.10.3.
 Device Serial | Hardware Key: #104477  
 Valid From: 31.03.2015  
 Update & Support Until: 30.03.2019  
+Licence Hash: 9280-1132-1549-7C8A  
 
 * Initial License: MVCL1782
 * Update Licence: MVCL1060 [Duration 1 Year]
@@ -15,7 +16,7 @@ Update & Support Until: 30.03.2019
 For the installation process, you may consult [the optitrack website](https://v22.wiki.optitrack.com/index.php?title=Installation_and_Activation)
 
 ## Setup
-The OT-PC needs to be connected to the OptiTrack cameras via Ethernet to the OptiTrack switch, which is in the Electrical cabinet. The ROS-PC, is then connected to a second network, used to stream the information.
+The Optitrack-PC needs to be connected to the OptiTrack cameras via Ethernet to the OptiTrack switch, which is in the Electrical cabinet. The ROS-PC, is then connected to a second network, used to stream the information.
 
 For networks connection, please consult the [Networks section](/docs/aerolabNetworks).
 
