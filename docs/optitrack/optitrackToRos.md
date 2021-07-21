@@ -32,15 +32,18 @@ In order to test your settings, we provide a demo.
     catkin_make 
     ```
 4. Add the following alias in your `.bashrc`file:
-    ```alias robosource='source ~/catkin_ws/src/obstacle_..../setup.bash
+    ```
+    alias robosource='source ~/catkin_ws/src/obstacle_..../setup.bash
     ```
 5. Save and execute
-    ```source bashrc
+    ```
+    source bashrc
     ```
 
 **Demo Steps**
 1. On your computer ping the robot and wait so that the ping gets a stabilized value bellow 2 or 3 
-    ```ping 192.168.30.14
+    ```
+    ping 192.168.30.14
     ```
 2. Access the robot with `ssh`.
 3. Verify if the date matches with [chrony](/docs/optitrack/chrony) 
