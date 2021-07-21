@@ -15,6 +15,8 @@ Licence Hash: 9280-1132-1549-7C8A
 ## Installation
 For the installation process, you may consult [the optitrack website](https://v22.wiki.optitrack.com/index.php?title=Installation_and_Activation)
 
+>[!Warning] If the Optitrack computer is changed, please copy all the available licences from the Licence folder of the current Optitrack computer and paste them in the Licence folder of the new Optitrack computer! This solves licence issues.
+
 ## Setup
 The Optitrack-PC needs to be connected to the OptiTrack cameras via Ethernet to the OptiTrack switch, which is in the Electrical cabinet. The ROS-PC, is then connected to a second network, used to stream the information.
 
@@ -31,8 +33,10 @@ For networks connection, please consult the [Networks section](/docs/aerolabNetw
 
 ### **Ground Plane calibration**
 1. Put the calibration square from the markers box in the center on the X and Y axis. It should be aligned so that it references the desired axis orientation.
-2. Click on `Set Ground Plane` 
+2. Select the calibration square.
+3. Click on `Set Ground Plane` 
 
 ### **When adding a robot**
 1. Put the robot inside the nets and verify its position. If needed correct the `Capture Volume Rotation` information of <span style="color: red">X</span>, <span style="color: green">Y</span> and <span style="color: blue">Z</span>. Sometimes it is better to first check the `rostopic echo` (in [ROS setup](/docs/optitrack/optitrackToRos))  because the rotation could be done.
 2. To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select `Rigid Body -> Create From Selected Markers`
+3. Check axes on robots. Make sure that `Properties -> Display -> Orientation=True`
