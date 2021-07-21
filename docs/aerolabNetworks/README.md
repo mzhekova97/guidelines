@@ -7,7 +7,7 @@ This netwok is for the internet connection.
 
 ## OptiTrack
 This network is for the OptiTrack data  
-<span style="color: green">Optitrack-PC IP: `192.168.30.105`</span> - not working  
+<span style="color: green">Optitrack-PC IP: `192.168.30.105`</span> not working  
 No WiFi connection.  
 
 ## robotics.snt.uni.lu 

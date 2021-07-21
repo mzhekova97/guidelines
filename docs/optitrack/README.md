@@ -31,13 +31,8 @@ For networks connection, please consult the [Networks section](/docs/aerolabNetw
 
 ### **Ground Plane calibration**
 1. Put the calibration square from the markers box in the center on the X and Y axis. It should be aligned so that it references the desired axis orientation.
-2. Click on `Set Ground Plane` and apply.
+2. Click on `Set Ground Plane` 
 
 ### **When adding a robot**
-To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select `Rigid Body -> Create From Selected Markers`
-- The name of the robot could be changed and we can see the User ID.
-
-
-
-
-
+1. Put the robot inside the nets and verify its position. If needed correct the `Capture Volume Rotation` information of <span style="color: red">X</span>, <span style="color: green">Y</span> and <span style="color: blue">Z</span>. Sometimes it is better to first check the `rostopic echo` (in [ROS setup](/docs/optitrack/optitrackToRos))  because the rotation could be done.
+2. To create a rigid body for streaming, select the markers of the object (at least three) and right-click in Motive and select `Rigid Body -> Create From Selected Markers`
