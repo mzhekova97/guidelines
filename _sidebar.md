@@ -25,7 +25,9 @@
 
 * OptiTrack
     * [Overview](/docs/optitrack/)
-    *  [ROS setup](/docs/optitrack/optitrackToRos)
+    * [ROS setup](/docs/optitrack/optitrackToRos)
+    * [Chrony](/docs/optitrack/chrony)
+    
     
 * AeroLab Networks
     * [Overview](/docs/aerolabNetworks/)
