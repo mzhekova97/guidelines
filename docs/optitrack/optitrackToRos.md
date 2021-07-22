@@ -21,7 +21,7 @@ You will need to install [chrony](/docs/optitrack/chrony) if it is not yet insta
 In order to test your settings, we provide a demo.
 
 **Demo preparation steps**  
-1. Go to your workspace source code `~catkin_ws/src` and clone our [repository](https://github.com/snt-robotics/obstacle_avoidance_project)
+1. Go to your workspace source code `~catkin_ws/src` and clone the [repository](https://github.com/snt-robotics/obstacle_avoidance_project)
 2. Enter your project folder `~catkin_ws/src/obstacle_avoidance_project` and execute the following:
     ```
     # for the update
